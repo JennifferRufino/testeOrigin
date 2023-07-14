@@ -44,5 +44,5 @@ O backend é construído com [Node.js](https://nodejs.org) e [Express](https://e
 Para executar o backend, siga as etapas abaixo:
 
 1. Navegue até o diretório backend: `cd testeOrigin/server-project-test`
-2. Inicie o servidor: `npm start`
+2. Inicie o servidor: `npm start:dev`
 3. O servidor estará em execução em `http://localhost:3000`
