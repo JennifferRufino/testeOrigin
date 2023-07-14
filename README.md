@@ -19,7 +19,7 @@ O frontend é construído com [React](https://reactjs.org) e [TypeScript](https:
 Para executar o frontend, siga as etapas abaixo:
 
 1. Navegue até o diretório frontend: `cd testeOrigin/project-test`
-2. Inicie o servidor de desenvolvimento: `npm start`
+2. Inicie o servidor de desenvolvimento: `npm run dev`
 3. O aplicativo estará disponível em `http://localhost:5173`
 
 ## Backend
@@ -44,5 +44,5 @@ O backend é construído com [Node.js](https://nodejs.org) e [Express](https://e
 Para executar o backend, siga as etapas abaixo:
 
 1. Navegue até o diretório backend: `cd testeOrigin/server-project-test`
-2. Inicie o servidor: `npm start:dev`
+2. Inicie o servidor: `npm run start:dev`
 3. O servidor estará em execução em `http://localhost:3000`
