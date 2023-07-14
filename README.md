@@ -1,8 +1,39 @@
-# testeOrigin
-Frontend e backend de um teste pra Origin9
 
-<h4>O front se encontra na pasta project-test, já o back na pasta server-project-test</h3>
+# Projeto Teste
 
-<h4>Para rodar o projeto é preciso entrar em cada uma das pastas(em terminais diferentes).</h3>
-<h4>Feito isso, é necessário que se instale os pacotes necessários com npm install ou yarn</h4>
-<h4>Depois, em cada uma das pastas, rode no back npm run start:dev e no front npm run dev</h4>
+Este é um projeto de demonstração que inclui um frontend e um backend.
+
+## Frontend
+
+O frontend é construído com [React](https://reactjs.org) e [TypeScript](https://www.typescriptlang.org). Ele consome uma API REST fornecida pelo backend.
+
+### Instalação
+
+1. Certifique-se de ter o Node.js instalado em seu sistema.
+2. Clone este repositório: `git clone https://github.com/JennifferRufino/testeOrigin.git`
+3. Navegue até o diretório frontend: `cd testeOrigin/frontend`
+4. Instale as dependências: `npm install`
+
+### Execução
+
+Para executar o frontend, siga as etapas abaixo:
+
+1. Navegue até o diretório frontend: `cd testeOrigin/frontend`
+2. Inicie o servidor de desenvolvimento: `npm start`
+3. O aplicativo estará disponível em `http://localhost:3000`
+
+## Backend
+
+O backend é construído com [Node.js](https://nodejs.org) e [Express](https://expressjs.com). Ele fornece uma API REST para o frontend.
+
+### Instalação
+
+1. Certifique-se de ter o Node.js instalado em seu sistema.
+2. Clone este repositório: `git clone https://github.com/JennifferRufino/testeOrigin.git`
+3. Navegue até o diretório backend: `cd testeOrigin/backend`
+4. Instale as dependências: `npm install`
+
+### Configuração
+
+1. Crie um arquivo `.env` no diretório `backend`.
+2. Defina as variáveis de ambiente necessárias no arquivo `.env`. Por exemplo:
